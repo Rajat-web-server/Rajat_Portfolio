@@ -7,4 +7,9 @@ export const siteConfig = {
     { label: "Blogs", href: "/blogs" },
     { label: "Contact", href: "/contact" },
   ],
+   socials: {
+    email: "you@example.com",
+    github: "https://github.com/your-username",
+    linkedin: "https://linkedin.com/in/your-username",
+  },
 };
