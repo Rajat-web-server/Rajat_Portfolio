@@ -25,14 +25,17 @@ export function Hero() {
           <p className="max-w-xl text-muted-foreground">{siteConfig.bio}</p>
           <div className="flex gap-3 pt-2">
             <Link
-              href="#skills"
+              href="#projects"
               className={cn(buttonVariants(), "rounded-full")}
             >
               See my work
             </Link>
             <Link
               href="/contact"
-              className={cn(buttonVariants({ variant: "outline" }), "rounded-full")}
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "rounded-full",
+              )}
             >
               Contact me
             </Link>
