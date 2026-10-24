@@ -98,7 +98,7 @@ function Pose({
       height={15}
       viewBox="0 0 20 14"
       className={cn(
-        "pet-pose hidden h-[42px] w-[60px] max-w-none",
+        "pet-pose hidden h-[32px] w-[60px] max-w-none",
         poseVisibility[state],
       )}
     >
