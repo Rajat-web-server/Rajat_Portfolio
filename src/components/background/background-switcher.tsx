@@ -13,9 +13,9 @@ export function BackgroundSwitcher() {
     <>
       {/* base color, visible instantly while the theme resolves */}
       <div
-        aria-hidden
-        className="fixed inset-0 -z-20 bg-gradient-to-br from-white via-slate-50 to-slate-100 dark:from-zinc-950 dark:via-zinc-900 dark:to-indigo-950"
-      />
+  aria-hidden
+  className="fixed inset-0 -z-20 bg-gradient-to-br from-white via-slate-50 to-slate-100 dark:bg-none dark:bg-[#08090b]"
+/>
       {mounted &&
         (resolvedTheme === "dark" ? <DarkBackground /> : <PongBackground />)}
     </>

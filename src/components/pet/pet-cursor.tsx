@@ -108,7 +108,7 @@ function Pose({
 }
 function Dog() {
   const ref = useRef<HTMLDivElement>(null);
-  usePointerFollow(ref, { offsetX: -40, offsetY: -48 });
+  usePointerFollow(ref, { offsetX: -40, offsetY: -48, speed:0.03 });
 
   return (
     <div
