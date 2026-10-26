@@ -14,4 +14,5 @@ export const siteConfig = {
     linkedin: "https://github.com/Rajat-web-server",
   },
     githubUsername: "Rajat-web-server",
+    avatar: "/avatar.jpg",
 };
