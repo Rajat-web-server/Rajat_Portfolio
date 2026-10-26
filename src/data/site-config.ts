@@ -11,6 +11,7 @@ export const siteConfig = {
    socials: {
     email: "you@example.com",
     github: "https://github.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username",
+    linkedin: "https://github.com/Rajat-web-server",
   },
+    githubUsername: "Rajat-web-server",
 };

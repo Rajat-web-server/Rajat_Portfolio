@@ -7,8 +7,9 @@ import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/data/site-config";
 import { cn } from "@/lib/utils";
 import { MapPin } from "lucide-react";
+import type { ReactNode } from "react";
 
-export function Hero() {
+export function Hero({ children }: { children?: ReactNode }) {
   return (
     <section id="home">
       <motion.div
@@ -39,6 +40,7 @@ export function Hero() {
       Contact me
     </Link>
   </div>
+  {children}
 </GlassCard>
       </motion.div>
     </section>
