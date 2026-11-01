@@ -10,6 +10,7 @@ import { MapPin } from "lucide-react";
 import type { ReactNode } from "react";
 import { useState } from "react";
 import Image from "next/image";
+import { TypingText } from "./typing-text";
 
 function Avatar() {
   const [failed, setFailed] = useState(false);
@@ -47,7 +48,7 @@ export function Hero({ children }: { children?: ReactNode }) {
           <div className="flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-4">
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm font-medium text-muted-foreground">
-                <p>{siteConfig.tagline}</p>
+                <TypingText words={siteConfig.roles} />
                 <p className="flex items-center gap-1.5">
                   <MapPin className="size-4" />
                   {siteConfig.location}
