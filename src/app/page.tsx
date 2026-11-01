@@ -3,6 +3,7 @@ import { Skills } from "@/components/sections/skills";
 import { Projects } from "@/components/sections/projects";
 import { Education } from "@/components/sections/education";
 import { GithubHeatmap } from "@/components/sections/github-heatmap";
+import { Currently } from "@/components/sections/currently";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Currently/>
     </div>
   );
 }

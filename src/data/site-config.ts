@@ -15,4 +15,5 @@ export const siteConfig = {
   },
     githubUsername: "Rajat-web-server",
     avatar: "/avatar.jpg",
+    roles: ["Full Stack Developer", "PERN Stack", "System Design", "Agentic AI", "Cloud", "Devops"],
 };
