@@ -11,6 +11,7 @@ import type { ReactNode } from "react";
 import { useState } from "react";
 import Image from "next/image";
 import { TypingText } from "./typing-text";
+import { AvailabilityBadge } from "./availability-badge";
 
 function Avatar() {
   const [failed, setFailed] = useState(false);
@@ -47,6 +48,7 @@ export function Hero({ children }: { children?: ReactNode }) {
         <GlassCard className="space-y-6 p-8 sm:p-10">
           <div className="flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-4">
+              <AvailabilityBadge status={siteConfig.availability} />
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm font-medium text-muted-foreground">
                 <TypingText words={siteConfig.roles} />
                 <p className="flex items-center gap-1.5">

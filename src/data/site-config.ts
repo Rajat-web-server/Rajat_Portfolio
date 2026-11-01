@@ -8,12 +8,20 @@ export const siteConfig = {
     { label: "Blogs", href: "/blogs" },
     { label: "Contact", href: "/contact" },
   ],
-   socials: {
+  socials: {
     email: "you@example.com",
     github: "https://github.com/your-username",
     linkedin: "https://github.com/Rajat-web-server",
   },
-    githubUsername: "Rajat-web-server",
-    avatar: "/avatar.jpg",
-    roles: ["Full Stack Developer", "PERN Stack", "System Design", "Agentic AI", "Cloud", "Devops"],
+  githubUsername: "Rajat-web-server",
+  avatar: "/avatar.jpg",
+  roles: [
+    "Full Stack Developer",
+    "PERN Stack",
+    "System Design",
+    "Agentic AI",
+    "Cloud",
+    "Devops",
+  ],
+  availability: "open" as "open" | "freelance" | "busy" | null,
 };
