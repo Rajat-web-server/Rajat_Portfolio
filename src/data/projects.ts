@@ -4,37 +4,37 @@ export type Project = {
   tech: string[];
   live?: string;
   repo?: string;
-  image?: string; // e.g. "/projects/my-app.png", optional
+  image?: string; // single cover image (still works)
+  images?: string[]; // collage screenshots
+  shape?: "landscape" | "portrait"; // defaults to landscape
 };
 
 export const projects: Project[] = [
   {
     title: "Project One",
-    description:
-      "A short description of what this project does and the problem it solves.",
+    description: "A short description of what this project does.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
     live: "https://example.com",
     repo: "https://github.com/your-username/project-one",
+    images: [
+      "/projects/project-one/pr1.jpeg",
+      "/projects/project-one/pr2.jpeg",
+      "/projects/project-one/pr3.jpeg",
+      "/projects/project-one/pr4.jpeg",
+    ],
+    shape: "portrait",
   },
   {
     title: "Project Two",
-    description:
-      "Another project. Mention one result or feature you're proud of.",
-    tech: ["React", "Node.js", "PostgreSQL"],
+    description: "A mobile app with smooth animations.",
+    tech: ["React Native", "Node.js"],
     repo: "https://github.com/your-username/project-two",
-  },
-  {
-    title: "Project Three",
-    description:
-      "A third project. Dashboards, tools, and side projects all fit here.",
-    tech: ["React", "Recharts", "Zustand"],
-    live: "https://example.com",
-  },
-   {
-    title: "Project Four",
-    description:
-      "A Third project. Dashboards, tools, and side projects all fit here.",
-    tech: ["React", "Recharts", "Zustand"],
-    live: "https://example.com",
+    images: [
+      "/projects/project-two/p1.jpeg",
+      "/projects/project-two/p2.jpeg",
+      "/projects/project-two/p3.jpeg",
+      "/projects/project-two/p4.jpeg",
+    ],
+    shape: "portrait",
   },
 ];
