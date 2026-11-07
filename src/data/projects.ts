@@ -10,12 +10,25 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    title: "Project One",
-    description: "A short description of what this project does.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
-    live: "https://example.com",
-    repo: "https://github.com/your-username/project-one",
+ {
+    title: "Habisius",
+    description: "A web application for tracking habits",
+    tech: ["React", "Node.js","auth", "express", "framer","postgresql",],
+    live: "https://rajat-portfolio-nine-eta.vercel.app/",
+    repo: "https://github.com/Rajat-web-server/Habit_tracker",
+    images: [
+      "/projects/project-two/p1.jpeg",
+      "/projects/project-two/p2.jpeg",
+      "/projects/project-two/p3.jpeg",
+      "/projects/project-two/p4.jpeg",
+    ],
+    shape: "portrait",
+  }, {
+    title: "CRM ",
+    description: "A customer relationship management system application",
+    tech: ["React", "Node.js","auth", "express", "framer","postgresql",],
+    live: "https://support-crm-two-tau.vercel.app/",
+    repo: "https://github.com/Rajat-web-server/Support-CRM",
     images: [
       "/projects/project-one/pr1.jpeg",
       "/projects/project-one/pr2.jpeg",
@@ -24,17 +37,5 @@ export const projects: Project[] = [
     ],
     shape: "portrait",
   },
-  {
-    title: "Project Two",
-    description: "A mobile app with smooth animations.",
-    tech: ["React Native", "Node.js"],
-    repo: "https://github.com/your-username/project-two",
-    images: [
-      "/projects/project-two/p1.jpeg",
-      "/projects/project-two/p2.jpeg",
-      "/projects/project-two/p3.jpeg",
-      "/projects/project-two/p4.jpeg",
-    ],
-    shape: "portrait",
-  },
+  
 ];

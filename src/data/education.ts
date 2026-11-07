@@ -7,13 +7,13 @@ export type Education = {
 
 export const education: Education[] = [
   {
-    school: "Your University",
-    degree: "B.Tech in Computer Science",
+    school: "K.P.B Hinduja college of Commerce",
+    degree: "BSC in Information Technology",
     period: "2023 – 2027",
-    details: "Relevant coursework, achievements, or GPA if you want to show it.",
+    details: "",
   },
   {
-    school: "Your School",
+    school: "Royal College of Art, Science and Commerve",
     degree: "Higher Secondary (Science)",
     period: "2021 – 2023",
   },
