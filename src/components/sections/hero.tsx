@@ -17,7 +17,7 @@ function Avatar() {
   const [failed, setFailed] = useState(false);
 
   return (
-    <div className="relative size-36 shrink-0 overflow-hidden rounded-full border-2 border-foreground/15 bg-foreground/5 shadow-lg sm:size-44">
+    <div className="relative size-36 shrink-0 self-center overflow-hidden rounded-full border-2 border-foreground/15 bg-foreground/5 shadow-lg sm:size-44 sm:self-auto">
       {failed ? (
         <span className="flex size-full items-center justify-center text-5xl font-bold text-muted-foreground">
           {siteConfig.name.charAt(0)}
