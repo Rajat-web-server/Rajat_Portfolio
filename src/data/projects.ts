@@ -14,7 +14,7 @@ export const projects: Project[] = [
     title: "Habisius",
     description: "A web application for tracking habits",
     tech: ["React", "Node.js","auth", "express", "framer","postgresql",],
-    live: "https://rajat-portfolio-nine-eta.vercel.app/",
+    live: "https://habittracker-eight-ivory.vercel.app/",
     repo: "https://github.com/Rajat-web-server/Habit_tracker",
     images: [
       "/projects/project-two/p1.jpeg",
