@@ -13,7 +13,7 @@ export const education: Education[] = [
     details: "",
   },
   {
-    school: "Royal College of Art, Science and Commerve",
+    school: "Royal College of Art, Science and Commerce",
     degree: "Higher Secondary (Science)",
     period: "2021 – 2023",
   },

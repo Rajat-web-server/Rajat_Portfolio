@@ -26,7 +26,7 @@ export const projects: Project[] = [
   }, {
     title: "CRM ",
     description: "A customer relationship management system application",
-    tech: ["React", "Node.js","auth", "express", "framer","postgresql",],
+    tech: ["React", "Node.js", "express", "sqLite","shadcn"],
     live: "https://support-crm-two-tau.vercel.app/",
     repo: "https://github.com/Rajat-web-server/Support-CRM",
     images: [
